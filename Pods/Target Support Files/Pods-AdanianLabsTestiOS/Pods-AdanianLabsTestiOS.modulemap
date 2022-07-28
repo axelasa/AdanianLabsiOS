@@ -1,0 +1,6 @@
+framework module Pods_AdanianLabsTestiOS {
+  umbrella header "Pods-AdanianLabsTestiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
