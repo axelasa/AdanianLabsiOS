@@ -66,26 +66,6 @@ class NetworkCall{
             }
         }
     }
-    
-//    func seePicsApi(){
-//        let request =  URLRequest(url: key!)
-//        let session = URLSession.shared.dataTask(with: request, completionHandler: { data,response,error in
-//
-//            if let error = error {
-//                print("There was an Error \(error.localizedDescription)")
-//            }else if let data = data {
-//                let json = try! JSONSerialization.jsonObject(with: data,options: [])
-//                print(json)
-//            }
-//
-//        })
-//        session.resume()
-//    }
 }
 
-extension URLRequest{
-    public var method:HTTPMethod?{
-        get{httpMethod.flatMap(HTTPMethod.init) }
-        set{httpMethod = newValue?.rawValue}
-    }
-}
+

@@ -13,7 +13,6 @@
 		6746C75E2813D3D400A21391 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6746C75C2813D3D400A21391 /* Main.storyboard */; };
 		6746C7602813D3D700A21391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6746C75F2813D3D700A21391 /* Assets.xcassets */; };
 		6746C7632813D3D700A21391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6746C7612813D3D700A21391 /* LaunchScreen.storyboard */; };
-		674909D8289148C200387095 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674909D7289148C200387095 /* APIManager.swift */; };
 		675E1CD7283A050E008AF1D9 /* DefaultResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675E1CD6283A050E008AF1D9 /* DefaultResponse.swift */; };
 		675E1CDA283A2019008AF1D9 /* PixaBayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675E1CD9283A2019008AF1D9 /* PixaBayTableViewCell.swift */; };
 		675E1CDC283A209E008AF1D9 /* PICXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675E1CDB283A209E008AF1D9 /* PICXViewController.swift */; };
@@ -21,7 +20,6 @@
 		67BFD68B281401CF00FB1750 /* NetworkCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BFD68A281401CF00FB1750 /* NetworkCall.swift */; };
 		67BFD68D281401DF00FB1750 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BFD68C281401DF00FB1750 /* Api.swift */; };
 		67BFD69028140D5000FB1750 /* PixaBayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BFD68F28140D5000FB1750 /* PixaBayModel.swift */; };
-		67D097FD28453C6700933ABE /* SearchQuerry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D097FC28453C6700933ABE /* SearchQuerry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +30,6 @@
 		6746C75F2813D3D700A21391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6746C7622813D3D700A21391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6746C7642813D3D700A21391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		674909D7289148C200387095 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		675E1CD6283A050E008AF1D9 /* DefaultResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultResponse.swift; sourceTree = "<group>"; };
 		675E1CD9283A2019008AF1D9 /* PixaBayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixaBayTableViewCell.swift; sourceTree = "<group>"; };
 		675E1CDB283A209E008AF1D9 /* PICXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PICXViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +37,6 @@
 		67BFD68A281401CF00FB1750 /* NetworkCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCall.swift; sourceTree = "<group>"; };
 		67BFD68C281401DF00FB1750 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		67BFD68F28140D5000FB1750 /* PixaBayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixaBayModel.swift; sourceTree = "<group>"; };
-		67D097FC28453C6700933ABE /* SearchQuerry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchQuerry.swift; sourceTree = "<group>"; };
 		8700CFE3A373C1E9822DA299 /* Pods-AdanianLabsTestiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdanianLabsTestiOS.debug.xcconfig"; path = "Target Support Files/Pods-AdanianLabsTestiOS/Pods-AdanianLabsTestiOS.debug.xcconfig"; sourceTree = "<group>"; };
 		B1545FCC9A916A6F95C91049 /* Pods-AdanianLabsTestiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdanianLabsTestiOS.release.xcconfig"; path = "Target Support Files/Pods-AdanianLabsTestiOS/Pods-AdanianLabsTestiOS.release.xcconfig"; sourceTree = "<group>"; };
 		E5B58043B058DE3FCB39F709 /* Pods_AdanianLabsTestiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdanianLabsTestiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,7 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				675E1CD6283A050E008AF1D9 /* DefaultResponse.swift */,
-				67D097FC28453C6700933ABE /* SearchQuerry.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -126,7 +121,6 @@
 			children = (
 				67BFD68A281401CF00FB1750 /* NetworkCall.swift */,
 				67BFD68C281401DF00FB1750 /* Api.swift */,
-				674909D7289148C200387095 /* APIManager.swift */,
 			);
 			path = ApiManager;
 			sourceTree = "<group>";
@@ -262,13 +256,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				674909D8289148C200387095 /* APIManager.swift in Sources */,
 				675E1CDC283A209E008AF1D9 /* PICXViewController.swift in Sources */,
 				6746C7572813D3D400A21391 /* AppDelegate.swift in Sources */,
 				67BFD68B281401CF00FB1750 /* NetworkCall.swift in Sources */,
 				67BFD68D281401DF00FB1750 /* Api.swift in Sources */,
 				675E1CD7283A050E008AF1D9 /* DefaultResponse.swift in Sources */,
-				67D097FD28453C6700933ABE /* SearchQuerry.swift in Sources */,
 				67BFD69028140D5000FB1750 /* PixaBayModel.swift in Sources */,
 				675E1CDA283A2019008AF1D9 /* PixaBayTableViewCell.swift in Sources */,
 				6746C7592813D3D400A21391 /* SceneDelegate.swift in Sources */,
