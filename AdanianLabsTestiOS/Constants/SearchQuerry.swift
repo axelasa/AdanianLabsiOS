@@ -2,7 +2,7 @@
 //  SearchQuerry.swift
 //  AdanianLabsTestiOS
 //
-//  Created by LCT AFRICA on 30/05/2022.
+//  Created by Axel Asa on 30/05/2022.
 //
 
 import Foundation

@@ -2,7 +2,7 @@
 //  PixaBayTableViewCell.swift
 //  AdanianLabsTestiOS
 //
-//  Created by LCT AFRICA on 22/05/2022.
+//  Created by Axel Asa on 22/05/2022.
 //
 
 import UIKit

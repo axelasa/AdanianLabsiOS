@@ -2,7 +2,7 @@
 //  APIManager.swift
 //  AdanianLabsTestiOS
 //
-//  Created by LCT AFRICA on 27/07/2022.
+//  Created by Axel ASA on 27/07/2022.
 //
 
 import Foundation
